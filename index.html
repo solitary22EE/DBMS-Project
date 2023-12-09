@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/gh/toorshia/justgage@1.4.0/raphael-2.1.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/toorshia/justgage@1.4.0/justgage.js"></script>
+    <script src="logsChart.js"></script>
+    <title>Health Tracking</title>
+</head>
+<body>
+    <header>
+        <h1>Health Tracking</h1>
+    </header>
+    <main>
+        <div class="login-container">
+            <form id="loginForm" onsubmit="checkLogin(event)">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit" class="button">Login</button>
+            </form>
+            <p id="registerLink" style="display:none;">Don't have an account? <a href="register.html" class="register_here">Register here</a></p>
+        </div>
+
+        <div class="gauge-container" id="gaugeContainer" style="display:none;">
+            <div id="gaugeChart" class="gauge-chart"></div>
+        </div>
+        <div class="buttons-container" id="buttonsContainer" style="display:none;">
+            <a href="setgoal.html" class="button">Set Goal</a>
+            <a href="activities.html" class="button">Activities</a>
+            <a href="logs.html" class="button">Logs</a>
+            <a href="viewgoal.html" class="button">View Goal</a>
+        </div>
+    </main>
+
+    <script src="gaugeChart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
