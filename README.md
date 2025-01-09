@@ -26,10 +26,9 @@ The DBMS Project is designed to showcase how database systems are implemented an
 
 ## Technologies Used
 
-- **Database**: [MySQL/PostgreSQL/Other DBMS]
-- **Backend**: [Specify your backend framework, e.g., Python Flask, Node.js]
-- **Frontend**: [HTML, CSS, JavaScript/Other tools if used]
-- **Tools**: [Mention tools like Docker, Git, etc., if applicable]
+- **Database**: [MySQL]
+- **Frontend**: [HTML, CSS, JavaScript]
+- **Tools**: [Git]
 
 ## Setup and Installation
 
